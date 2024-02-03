@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+{% block content %}
+
+<div class="topnav">
+    <a  href="/home">Home</a>
+    <a  href="/videos">Videos</a>
+    <a  href="/about">About</a>
+    <a  class="active" href="/todos">To do</a>
+    <a  href="/contact">Contact</a>
+  </div>
+
+<h1>📝 Todo List</h1>
+<ul>
+    {% for todo in todos %}
+    <li>
+        {{ todo.title }}: 
+            {% if todo.completed %} 
+                Completed 
+            {% else %}
+                Not Completed
+            {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+
