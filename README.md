@@ -1,2 +1,1 @@
-# MVC-Project
-just extract the rar file theres no virus there
+This is where im going to pass all my activities
