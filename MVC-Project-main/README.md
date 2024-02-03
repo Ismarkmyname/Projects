@@ -1,2 +1,2 @@
 # MVC-Project
-My first MVC Project
+Week_1_Activity_Create_Your_First_MVC_Project
