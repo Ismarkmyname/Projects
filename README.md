@@ -1,1 +1,1 @@
-This is where im going to pass all my activities
+this is the general readme file for all of the folder that is going to be here
