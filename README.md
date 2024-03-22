@@ -1,1 +1,1 @@
- The MCV project is the Week 1 Activity
+ The MCV project named Porkhub.com is the Week 1 Activity
