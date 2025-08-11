@@ -7,18 +7,50 @@
 {% block content %}
 <div class="topnav">
   <a class="active" href="#Home">Home</a>
-  <a  href="/videos">Videos</a>
+  <a href="/videos">Videos</a>
   <a href="/about">About</a>
-  <a href="/todos">To do</a>
-  <a  href="/contact">Contact</a>
+  <a href="/contact">Contact</a>
 </div>
 
-<h1><center><b> What to cook Tonight </b></center></h1>
+<h1><center><b> What to cook Tonight? </b></center></h1>
 
-<center><img src="/media/1.png" alt="food"></center>
-
-<p> <center> browse the collection of our video recipes at the video tab above </center></p>
-<p> <center> or by just clicking <a href="/videos">here</a> </center></p>
+<div style="margin: 50px auto; max-width: 800px; padding: 0 20px;">
+    <h2 style="text-align: center; color: orange; margin-bottom: 30px;">Featured Pork Recipes</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px;">
+        
+        <div style="background: #2a2a2a; padding: 20px; border-radius: 10px; border-left: 4px solid orange;">
+            <h3 style="color: orange; margin-top: 0;">🍖 Pork Mechado</h3>
+            <p style="color: #ffffff; margin: 0;">A classic Filipino stew with tender pork in rich tomato sauce</p>
+        </div>
+        
+        <div style="background: #2a2a2a; padding: 20px; border-radius: 10px; border-left: 4px solid orange;">
+            <h3 style="color: orange; margin-top: 0;">🥢 Stir Fry Pork with Oyster Sauce</h3>
+            <p style="color: #ffffff; margin: 0;">Quick and savory Asian-inspired dish perfect for weeknight dinners</p>
+        </div>
+        
+        <div style="background: #2a2a2a; padding: 20px; border-radius: 10px; border-left: 4px solid orange;">
+            <h3 style="color: orange; margin-top: 0;">🥛 Creamy Porksteak</h3>
+            <p style="color: #ffffff; margin: 0;">Indulgent and comforting pork steaks in creamy sauce</p>
+        </div>
+        
+        <div style="background: #2a2a2a; padding: 20px; border-radius: 10px; border-left: 4px solid orange;">
+            <h3 style="color: orange; margin-top: 0;">🏮 Chinese-style Glazed Pork Belly</h3>
+            <p style="color: #ffffff; margin: 0;">Succulent pork belly with authentic Chinese flavors</p>
+        </div>
+        
+        <div style="background: #2a2a2a; padding: 20px; border-radius: 10px; border-left: 4px solid orange;">
+            <h3 style="color: orange; margin-top: 0;">🌶️ Pork Bicol Express</h3>
+            <p style="color: #ffffff; margin: 0;">Spicy Filipino favorite with coconut milk and chilies</p>
+        </div>
+        
+    </div>
+    
+    <div style="text-align: center;">
+        <a href="/videos" style="display: inline-block; background: orange; color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; transition: background 0.3s;">
+            Watch All Recipe Videos →
+        </a>
+    </div>
+</div>
 
 {% endblock %}
-demo/myapp/templates/home.html
