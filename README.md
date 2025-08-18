@@ -1,1 +1,2 @@
- The MCV project named Porkhub.com is the Week 1 Activity
+ The MCV Project named Porkhub.com is the Activity 1
+ The Data Story Telling is the Activity 2
