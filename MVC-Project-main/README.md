@@ -9,3 +9,5 @@ How to run this code?
 - Run the command py manage.py runserver or python manage.py runserver
 - Click or Copy the link that your prefered Integrated Development Environments (IDEs)
 - it should be running by now
+# Or you can just click the link below
+- [The Link](https://pantheraleo.pythonanywhere.com)
